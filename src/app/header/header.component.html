@@ -1,0 +1,20 @@
+<header id="header">
+  <div class="container">
+    <a routerLink= "/" routerLinkActive="active">
+      <img src="assets/images/logo.png" alt="Calbliss logo" class="logo" />
+    </a>
+    <div class="menu-toggle">
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a [routerLink]="['/about-me']" routerLinkActive="active">ABOUT ME</a>
+        </li>
+        <li>
+          <a [routerLink]="['/my-work']" routerLinkActive="active">MY WORK</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+

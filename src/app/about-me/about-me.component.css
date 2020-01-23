@@ -1,0 +1,35 @@
+.about-me {
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-right: 15rem;
+  padding-left: 15rem;
+}
+.about-me .info {
+  padding-right: 1.2rem;
+}
+.about-me .info .info-heading {
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.about-me .info .info-subHeading {
+  font-size: 24px;
+}
+.about-me div #personal-pic {
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 768px) {
+  .about-me {
+    padding: 3rem;
+  }
+}
+@media (max-width: 600px) {
+  .about-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding: 2rem 1rem;
+  }
+}

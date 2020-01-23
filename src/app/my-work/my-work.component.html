@@ -1,0 +1,15 @@
+<section class="my-work">
+  <h1 class="heading">My work</h1>
+  <p class="sub-heading">A selection of my range of work</p>
+
+  <div *ngFor="let myWork of myWorks" class="work-details">
+    <div class="work-img">
+      <img src={{myWork.pics}} alt={{myWork.title}}  class="img-style" />
+    </div>
+    <a href={{myWork.link}} class="link">{{myWork.title}}</a>
+  </div>
+</section>
+
+
+
+

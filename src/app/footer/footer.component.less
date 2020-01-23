@@ -1,0 +1,59 @@
+@parentBackgroundColor: #607D8B;
+@childBackgroundColor: rgba(0,0,0,.3);
+@highlightColor: #fff;
+@secondaryColor: #ff9977;
+
+
+.parent {
+  padding: 10px;
+  position: relative;
+  background-color: @parentBackgroundColor;
+  text-align: center;
+}
+
+.mail {
+  color:  white;
+  letter-spacing: 1px;
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.child {
+  text-align: center;
+  background-color: @childBackgroundColor;
+  padding: 20px;
+  color:  lighten(@parentBackgroundColor, 15%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  ul {
+    margin-bottom: 0;
+    li {
+      list-style: none;
+      display: inline-block;
+      
+      a {
+        color:  lighten(@parentBackgroundColor, 15%); 
+        padding: 0 0.6rem;
+      }
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+#copyright-styling{
+  color: @highlightColor;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  font-size: inherit;
+
+  &:hover, &:visited {
+    text-decoration: underline;
+  }
+}

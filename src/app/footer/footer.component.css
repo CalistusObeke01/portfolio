@@ -1,0 +1,47 @@
+.parent {
+  padding: 10px;
+  position: relative;
+  background-color: #607D8B;
+  text-align: center;
+}
+.mail {
+  color: white;
+  letter-spacing: 1px;
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 14px;
+}
+.child {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  color: #8aa2ae;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.child ul {
+  margin-bottom: 0;
+}
+.child ul li {
+  list-style: none;
+  display: inline-block;
+}
+.child ul li a {
+  color: #8aa2ae;
+  padding: 0 0.6rem;
+}
+.child ul li:hover {
+  transform: scale(1.2);
+}
+#copyright-styling {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  font-size: inherit;
+}
+#copyright-styling:hover,
+#copyright-styling:visited {
+  text-decoration: underline;
+}

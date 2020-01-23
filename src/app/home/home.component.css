@@ -1,0 +1,24 @@
+.home-section {
+  min-height: calc(100vh - 138px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#personal-pic {
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.detail {
+  padding-left: 1rem;
+}
+.detail .intro {
+  font-size: 5vmin;
+  margin-bottom: -12px;
+}
+.detail .name {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-bottom: -12px;
+}
+.detail .position {
+  text-transform: uppercase;
+}
